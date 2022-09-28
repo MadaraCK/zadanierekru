@@ -1,0 +1,343 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+html {
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1560px;
+    margin: 0 auto;
+}
+
+.menu_burger {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    padding: 2em;
+    position: relative;
+}
+
+
+.box_about {
+    margin-top: 30px;
+    list-style-type: none;
+    display: flex;
+    width: 55%;
+}
+.li_text{
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.link_text_about_bus {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 23px;
+    position: relative;
+    color: #3C3F40;
+}
+.lang_pl{
+    margin: 120px auto;
+    width: 120px;
+    border: 1px solid #DFCEC5;
+    border-radius: 7px;
+    background-color: white;
+}
+.flags{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.flags2{
+    border-top: 1px solid #DFCEC5;
+    display: none;
+    gap: 18px;
+    padding-left: 10px;
+}
+.add_flags{
+    display: flex;
+}
+
+a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: .15em;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+}
+
+a:hover::after {
+    width: 100%;
+}
+
+/* Burger Styling */
+
+.burger {
+    margin-top: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: none;
+}
+
+.line {
+    width: 3em;
+    height: .3em;
+    margin: .7em;
+    background-color: #3C3F40;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+/* service */
+.services{
+    width: 100%;
+}
+.service{
+    margin: 36px;
+    font-size: 36px;
+    color: #3C3F40;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.img_first{
+    background-color: #E9E9E3;
+}
+.secondary_img{
+    background-color: #F5F5F1;
+}
+.img_first,
+.secondary_img{
+    padding: 33px;
+    border-radius: 10px;
+    width: 144px;
+    height: 144px;
+}
+.images_service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.images{
+    display: flex;
+    background-position: center;
+    background-size: cover;
+
+}
+.images1{
+    background-image: url('./images/Rectangle\ 42.png');
+}
+.images2{
+    background-image: url('./images/Rectangle\ 43.png');
+}
+.images3{
+    background-image: url('./images/Rectangle\ 44.png');
+}
+.images4{
+    background-image: url('./images/Rectangle\ 45.png');
+}
+.images5{
+    background-image: url('./images/Rectangle\ 46.png');
+}
+.images{
+    width: 300px;
+    height: 300px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .images6,
+    .images7,
+    .images8,
+    .images9,
+    .images10{
+        display: none;
+    }
+    .images_service{
+        display: flex;
+        flex-direction: column;
+    }
+    .santana{
+        margin-top: 20px;
+    }
+  
+    .burger {
+        display: block;
+        transition: .3s ease-in-out;
+    }
+
+    .burger.active .line:first-child {
+        transform: translateY(-300px);
+    }
+
+    .burger.active .line:nth-child(2) {
+        transform: rotate(-405deg) translateY(8px);
+    }
+
+    .burger.active .line:nth-child(3) {
+        transform: rotate(-320deg) translateY(-10px);
+    }
+
+    ul {
+        position: absolute;
+        right: 0;
+        top: 8vh;
+        height: 88vh;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(30px);
+        text-align: center;
+        transform: translate(100%);
+        transition: .3s ease-in-out;
+    }
+
+    ul.active {
+        transform: translate(0%);
+    }
+
+    a {
+        color: whitesmoke;
+        font-size: 2.5rem;
+        letter-spacing: 2px;
+    }
+    .images{
+        min-height: 360px;
+        min-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .box_about {
+        width: 100%;
+    }
+}
+@media only screen and (min-width:1600px) {
+    .santana{
+        margin-left: 50px;
+        margin-top: 30px;
+        width: 200px;
+    }
+    .menu{
+        margin-top: 30px;
+    }
+    .box_about{
+        font-size: 18px;
+        display: flex;
+        gap: 30px;
+    }
+    .li_text{
+        margin-top: 130px;
+    }
+    .link_text_about_bus{
+        color: #3C3F40;
+    }
+    .lang_pl{
+        padding: 10px 0;
+    }
+    .images_galery{
+        margin-left: 8px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .images1{
+        width: 943px;
+        height: 480px;
+    }
+    .images2,
+    .images3,
+    .images4,
+    .images5,
+    .images6,
+    .images7,
+    .images8,
+    .images9{
+        width: 472px;
+        height: 480px;
+    }
+    .images6{
+     
+        background-image: url('./images/Rectangle\ 47.png');
+    }
+    .images7{
+       
+        background-image: url('./images/Rectangle\ 48.png');
+    }
+    .images8{
+       
+        background-image: url('./images/Rectangle\ 51.png');
+    }
+    .images9{
+        width: 480px;
+      
+        background-image: url('./images/Rectangle\ 50.png');
+    }
+    .images10{
+        width: 936px;
+        height: 480px;
+        background-image: url('./images/Rectangle\ 49.png');
+    }
+    .services{
+        flex-wrap: wrap;
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+    .service{
+        font-size: 60px;
+    }
+    .contact{
+        height: 800px;
+        background-color:#D8D9CC ;
+    }
+    .contact_text{
+        display: flex;
+        justify-content: center;
+        padding-top: 60px;
+    }
+    .contact_box{
+        display: flex;
+        justify-content: space-around;
+        margin: 60px auto;
+        width: 1100px;
+        height: 500px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .newsletter{
+        height: 300px;
+    }
+    .newsletter_text{
+        margin-top: 71px;
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        font-weight: bold;
+        color:#3C3F40 ;
+    }
+    .newsletter_button{
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+        font-weight: bold;
+        border: 1px solid #3C3F40;
+        border-radius: 5px;
+        color: #3C3F40;
+        padding: 15px;
+        width: 170px;
+        margin-top: 47px;
+        margin-left: 860px;
+        text-decoration: none;
+    }
+   
+}

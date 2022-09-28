@@ -1,0 +1,19 @@
+<svg id="Group_40" data-name="Group 40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="61.888" height="104.246" viewBox="0 0 61.888 104.246">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_131" data-name="Rectangle 131" width="61.888" height="104.246" fill="none" stroke="#3c3f40" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_39" data-name="Group 39" clip-path="url(#clip-path)">
+    <path id="Path_58" data-name="Path 58" d="M47.67,94.35,46.1,100.714a3.315,3.315,0,0,1-3.232,2.532H19.016a3.314,3.314,0,0,1-3.232-2.532L14.218,94.35a3.819,3.819,0,0,0,3.6,2.532H44.071A3.819,3.819,0,0,0,47.67,94.35Z" fill="none" stroke="#3c3f40" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_59" data-name="Path 59" d="M52.589,1H9.3A2.91,2.91,0,0,0,6.523,3.033l-5.387,17a2.917,2.917,0,0,0,0,1.759l5.387,17A2.911,2.911,0,0,0,9.3,40.829h43.29A2.911,2.911,0,0,0,55.365,38.8l5.387-17a2.917,2.917,0,0,0,0-1.759l-5.387-17A2.91,2.91,0,0,0,52.589,1Z" fill="none" stroke="#3c3f40" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_60" data-name="Path 60" d="M12.046,34.165l-4.2-13.249,4.2-13.253h37.8l4.2,13.253-4.2,13.249Z" fill="none" stroke="#3c3f40" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_2" data-name="Line 2" x2="41.964" transform="translate(9.962 14.243)" fill="none" stroke="#3c3f40" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_3" data-name="Line 3" x2="45.228" transform="translate(8.33 20.914)" fill="none" stroke="#3c3f40" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_4" data-name="Line 4" x2="41.964" transform="translate(9.962 27.585)" fill="none" stroke="#3c3f40" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_61" data-name="Path 61" d="M44.071,96.866H17.817a3.818,3.818,0,0,1-3.767-3.191L6.7,49.621a3.819,3.819,0,0,1,3.767-4.447H51.42a3.818,3.818,0,0,1,3.766,4.447L47.838,93.675A3.818,3.818,0,0,1,44.071,96.866Z" fill="none" stroke="#3c3f40" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_5" data-name="Line 5" x2="16.537" transform="translate(36.97 59.861)" fill="none" stroke="#3c3f40" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_6" data-name="Line 6" x2="17.387" transform="translate(8.381 59.861)" fill="none" stroke="#3c3f40" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect id="Rectangle_130" data-name="Rectangle 130" width="11.2" height="19.849" rx="2.912" transform="translate(25.769 55.147)" fill="none" stroke="#3c3f40" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>
